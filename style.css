@@ -1,0 +1,197 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+}
+.HeadForPhone{
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid black;
+    width: 100%;
+    height: 45px;
+}
+.BurgerMenuButton{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    margin-left: 10px;
+    width: 28px;
+    height: 28px;
+    z-index: 1;
+}
+.BurgerMenuButton span{
+    display: block;
+    width: 80%;
+    height: 2px;
+    background-color: black;
+}
+.MainLogo{
+    position: absolute;
+    top: 15px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.MainLogo img{
+    width: 137px;
+}
+.openMenu{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: white;
+    transition: left 0.5s ease;
+}
+.openMenu2{
+    position: absolute;
+    top: 0;
+    left: 100vw;
+    width: 100vw;
+    height: 100vh;
+    background-color: white;
+    transition: all 0.5s ease;
+}
+.openMenuTop{
+    margin-top: 45px;
+    display: flex;
+    flex-direction: column;
+}
+.openMenuTop a:nth-child(1){
+    border-top: 1px solid black;
+}
+.openMenuTop div, .openMenuTop a{
+    position: relative;
+    padding: 18px 15px;
+    border-bottom: 1px solid black;
+    width: 100%;
+    height: 60px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: black;
+    transition: all 0.5s ease;
+    overflow: hidden;
+    
+}
+.openMenuTop div img{
+    position: absolute;
+    right: 10px;
+}
+#image{
+    transition: all 1s ease;
+}
+.openMenuBottom{
+   padding-left: 15px;
+   margin-top: 5vh;
+   font-size: 14px;
+   text-transform: uppercase;
+}
+.openMenuBottom ul{
+  display: flex;
+  flex-direction: column;
+  list-style-type:none;
+  bottom: 1px;
+  gap: 13px;  
+}
+   .menuList{
+    display: none;
+    width: 100%;
+    overflow: hidden;
+   }
+   .menuList.open{
+    display: flex;
+   }
+   .womenBack , .menBack{
+    width: 100vw;
+    height: 75px;
+    border-top: 1px solid black;
+   }
+   .womenBack span , .menBack span{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+   }
+   .womenBack img , .menBack img{
+    position: absolute;
+   }
+   #ee ul{
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+    margin-top: 30px;
+    list-style: none;
+   }
+   #ee a{
+    border: 0;
+    text-transform: lowercase;
+   }
+   #ee2 ul{
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+    margin-top: 30px;
+    list-style: none;
+   }
+   #ee2 a{
+    border: 0;
+    text-transform: lowercase;
+   }
+   #ee3 ul{
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+    margin-top: 30px;
+    list-style: none;
+   }
+   #ee3 a{
+    border: 0;
+    text-transform: lowercase;
+   }
+   #ee4 ul{
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+    margin-top: 30px;
+    list-style: none;
+   }
+   #ee4 a{
+    border: 0;
+    text-transform: lowercase;
+   }
+   #ee5 ul{
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+    margin-top: 30px;
+    list-style: none;
+   }
+   #ee5 a{
+    border: 0;
+    text-transform: lowercase;
+   }
+   #ee6 ul{
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+    margin-top: 30px;
+    list-style: none;
+   }
+   #ee6 a{
+    border: 0;
+    text-transform: lowercase;
+   }
+   .openMenuMen, .openMenuGifts, .openMenuExplore {
+    position: absolute;
+    top: 0;
+    left: 100vw;
+    width: 100vw;
+    height: 100vh;
+    background-color: white;
+    transition: all 0.5s ease;
+}
